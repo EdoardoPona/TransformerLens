@@ -43,6 +43,9 @@ OFFICIAL_MODEL_NAMES = [
     "stanford-crfm/eowyn-gpt2-medium-x777",
     "EleutherAI/pythia-70m",
     "EleutherAI/pythia-160m",
+    "EleutherAI/pythia-160m-hiddendropout",
+    "EleutherAI/pythia-160m-alldropout",
+    "EleutherAI/pythia-160m-attndropout",
     "EleutherAI/pythia-410m",
     "EleutherAI/pythia-1b",
     "EleutherAI/pythia-1.4b",
@@ -189,6 +192,15 @@ MODEL_ALIASES = {
         "pythia-160m",
         "EleutherAI/pythia-125m",
         "pythia-125m",  # EleutherAI renamed this model"
+    ],
+    "EleutherAI/pythia-160m-alldropout": [
+        "pythia-160m-alldropout"
+    ],
+    "EleutherAI/pythia-160m-attndropout": [
+        "pythia-160m-attndropout"
+    ],
+    "EleutherAI/pythia-160m-hiddendropout": [
+        "pythia-160m-hiddendropout"
     ],
     "EleutherAI/pythia-410m": [
         "pythia-410m",
