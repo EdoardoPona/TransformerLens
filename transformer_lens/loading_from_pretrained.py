@@ -194,13 +194,13 @@ MODEL_ALIASES = {
         "pythia-125m",  # EleutherAI renamed this model"
     ],
     "EleutherAI/pythia-160m-alldropout": [
-        "pythia-160m-alldropout"
+        "pythia-160m-alldropout-0.1"
     ],
     "EleutherAI/pythia-160m-attndropout": [
-        "pythia-160m-attndropout"
+        "pythia-160m-attndropout-0.1"
     ],
     "EleutherAI/pythia-160m-hiddendropout": [
-        "pythia-160m-hiddendropout"
+        "pythia-160m-hiddendropout-0.1"
     ],
     "EleutherAI/pythia-410m": [
         "pythia-410m",
